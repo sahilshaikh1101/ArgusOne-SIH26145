@@ -1,0 +1,3 @@
+# Data Directory
+Place your data files here (pcap files, databases, etc.)
+These files are gitignored as they are typically too large for version control.

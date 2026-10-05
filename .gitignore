@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Data files (large/generated)
+data/alerts.db
+data/*.pcap
+data/*.txt
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+
+
+# Logs
+*.log
+
+# Byte-compiled / optimized
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Presentations, PDFs, images, and internal guides (kept locally, not in repo)
+*.pptx
+*.pdf
+*.png
+build_sih_presentation.py
+sih_presentation_slides.html
+EASY_EXPLANATION_AND_SCRIPTS.*
+SIH2026_PRESENTATION_SCRIPT_AND_DEFENSE_GUIDE.*
+SIH2026_SUBMISSION_PPT.md
+NTRO_26145_Proposed_Solution.md
+dashboard/index_backup.html
+
